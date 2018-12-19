@@ -2,5 +2,664 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <variable constant="0" name="finishedMoving" sid="125597184665376" static="0" type="number">0</variable>
+        <variable constant="0" name="position" sid="986786821922238" static="0" type="number">2</variable>
+        <event-group description="" sid="669677160140931" title="Initialization">
+            <sub-events>
+                <event-block sid="505257307122546">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="633274669183529" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="538754802774616" type="FLOORS">
+                            <param id="0" name="Pin to">girl1</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="323714182666472" type="GCLICK">
+                            <param id="0" name="Pin to">girl1</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="430286445452926" type="baloon2">
+                            <param id="0" name="Pin to">girl1</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="915954635475397" type="Tree">
+                            <param id="0" name="Scale">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="542421167024266" type="Tree">
+                            <param id="0" name="Target is">6</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="485696373821834" type="Tree">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="433934743396451" title="Move girls">
+            <sub-events>
+                <event-block any="1" sid="937407428840580">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="194662578625605" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">trigger1</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="492453403175236" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">click1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="739824067074933">
+                            <conditions>
+                                <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="114743537812258" type="GIRLS" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="955580426067088" type="Click">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="594509914016416" type="baloon">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="729889803064980">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="341313930988494" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="106972135771102" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">-375</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="422053005340571" type="GIRLS">
+                                            <param id="0" name="Duration">2</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="861169251587972" type="girl1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="327560211142322" type="girl2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="566381372256697" type="girl3">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="519735633293185">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="436913399062036" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="161537542676704" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">-750</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="608067517896175" type="GIRLS">
+                                            <param id="0" name="Duration">4</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="351675434423912" type="girl1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="146148206686325" type="girl2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="339161776996770" type="girl3">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="963928718579864">
+                                    <conditions />
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="789958951153550" type="GIRLS">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="497228985447341" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block any="1" sid="578737259556104">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="641660370640658" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">trigger2</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="325804965778424" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">click2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="337739885651143">
+                            <conditions>
+                                <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="721688697509689" type="GIRLS" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="645039454998164" type="Click">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="360314243288873" type="baloon">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="248784371405628">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="765431882156087" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="396936543102670" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">375</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="658129442881361" type="GIRLS">
+                                            <param id="0" name="Duration">2</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="319653780572883" type="girl1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="421715469222622" type="girl2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="301914988537393" type="girl3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="112830084126970">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="585163897418919" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="141902248763123" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">-375</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="877590996661368" type="GIRLS">
+                                            <param id="0" name="Duration">2</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="855820943950111" type="girl1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="800288790905700" type="girl2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="893793415224084" type="girl3">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="554042929399547">
+                                    <conditions />
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="168602838777520" type="GIRLS">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="795286385092000" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block any="1" sid="222568424702844">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="602401508469051" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">trigger3</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="147428530775213" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">click3</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="839800072270469">
+                            <conditions>
+                                <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="736181266503164" type="GIRLS" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="697452652557900" type="Click">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="474075814305375" type="baloon">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="755349086257368">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="351187014957814" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="191423275399240" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">750</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="549109575768639" type="GIRLS">
+                                            <param id="0" name="Duration">4</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="339886476540412" type="girl1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="881548749607477" type="girl3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="660068423639041" type="girl2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="443025697571731">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="325385494381297" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="624352630533307" type="GIRLS">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">1</param>
+                                            <param id="2" name="Value">375</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="1" name="Set duration" sid="400370257422179" type="GIRLS">
+                                            <param id="0" name="Duration">2</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="352442420782897" type="girl1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="375411504634671" type="girl2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="287005278379846" type="girl3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="619320713602714">
+                                    <conditions />
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="298013030797818" type="GIRLS">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="931694985869376" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="758278419526113">
+                    <conditions>
+                        <condition behavior="LiteTween" id="2" name="On tween start" sid="861539219378770" type="GIRLS" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="940696042460327" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="421973521991633" type="GCLICK">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="280454474693079" type="baloon2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="990217666187470">
+                    <conditions>
+                        <condition behavior="LiteTween" id="4" name="On tween end" sid="645409249555808" type="GIRLS" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="498219039848740" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="336295731215968" type="GCLICK">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="929561276346244" type="baloon2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="567041452028412" title="Mouse cursor">
+            <sub-events>
+                <event-block any="1" sid="721395650419366">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="446319519661181" type="Mouse">
+                            <param id="0" name="Object">Click</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="428195803237990" type="Mouse">
+                            <param id="0" name="Object">baloon</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="216439288089511" type="Mouse">
+                            <param id="0" name="Object">TRIGGERS</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="999258292071831" type="Mouse">
+                            <param id="0" name="Object">reset</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="333773499814060" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="849154669908195">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="898392005007166" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="560313811475521" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="752788430525181">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="732327958354815" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">1</param>
+                            <param id="2" name="Object clicked">reset</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="513224981700433" type="System" />
+                        <action id="-21" name="Reset global variables" sid="478277408851542" type="System" />
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="547168515814895">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="741161178249327" type="Mouse">
+                            <param id="0" name="Object">girl1</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="121245914810543" type="Mouse">
+                            <param id="0" name="Object">girl2</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="956742263846747" type="Mouse">
+                            <param id="0" name="Object">girl3</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="449365915894977" type="Mouse">
+                            <param id="0" name="Object">GCLICK</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="530218719768191" type="Mouse">
+                            <param id="0" name="Object">baloon2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="718144355701196">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="406787061135270" type="System">
+                                    <param id="0" name="Variable">finishedMoving</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="440271186339185" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="213189156600546">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="575637558611947" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="962342079108627" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="194387728509578">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="269249818952763" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="357641522129696">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="292820748122820" type="Mouse">
+                                    <param id="0" name="Object">girl1</param>
+                                </condition>
+                                <condition id="7" name="Cursor is over object" sid="540786545534713" type="Mouse">
+                                    <param id="0" name="Object">gclick1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="709481246233388" type="floor1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="437833504556424">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="371963909058695" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="405873738994441" type="floor1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="325226993858373">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="285977763993344" type="Mouse">
+                                    <param id="0" name="Object">girl2</param>
+                                </condition>
+                                <condition id="7" name="Cursor is over object" sid="218596528619480" type="Mouse">
+                                    <param id="0" name="Object">gclick2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="818215839372993" type="floor2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="942934454912918">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="603941181549593" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="103231505804992" type="floor2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="381644006962712">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="498911767862891" type="Mouse">
+                                    <param id="0" name="Object">girl3</param>
+                                </condition>
+                                <condition id="7" name="Cursor is over object" sid="344387827868964" type="Mouse">
+                                    <param id="0" name="Object">gclick3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="601678725324777" type="floor3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="164188111684796">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="380915273747645" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="347597267906607" type="floor3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="586376817231751" title="Tree Growing">
+            <sub-events>
+                <event-block any="1" sid="580931787544879">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="520453240353877" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl1</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="752220668740453" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl2</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="529623713838028" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl3</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="326709042889304">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="878283555678156" type="System">
+                                    <param id="0" name="Variable">finishedMoving</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="549572794496511">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="530478434065160" type="System">
+                                            <param id="0" name="Variable">position</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="552431957466060">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="752214351368556" type="trigger1">
+                                                    <param id="0" name="Instance variable">growStage</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="LiteTween" id="1" name="Set duration" sid="575131649383840" type="Tree">
+                                                    <param id="0" name="Duration">1</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="119894938774557" type="Tree">
+                                                    <param id="0" name="Target is">6</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">0.5</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="469972228138412" type="leaf1">
+                                                    <param id="0" name="Visibility">1</param>
+                                                </action>
+                                                <action behavior="Fade" id="1" name="Start fade" sid="541579718797752" type="bean1" />
+                                                <action behavior="Fade" id="1" name="Start fade" sid="849551343280057" type="leaf1" />
+                                                <action behavior="LiteTween" id="10" name="Start" sid="259474763681707" type="tree1">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="999255007784581" type="System">
+                                                    <param id="0" name="Seconds">0.2</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="657707607031867" type="tree2">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="403173200221941" type="System">
+                                                    <param id="0" name="Seconds">0.2</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="820723942977083" type="tree3">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="149231331874995" type="System">
+                                                    <param id="0" name="Seconds">0.2</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="796352477267052" type="trigger1">
+                                                    <param id="0" name="Instance variable">growStage</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

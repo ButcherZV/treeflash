@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="0">Layout 1</layout>
+        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -19,14 +19,47 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1" />
+    <families-expanded root="1">
+        <family expanded="0" name="GIRLS" />
+        <family expanded="0" name="Click" />
+        <family expanded="0" name="FLOORS" />
+        <family expanded="0" name="TRIGGERS" />
+        <family expanded="0" name="GCLICK" />
+        <family expanded="0" name="LEAFS" />
+        <family expanded="0" name="BEANS" />
+        <family expanded="0" name="Tree" />
+    </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Girls/" />
+        <folder expanded="1" path="object-folder/Tree/" />
+        <folder expanded="0" path="object-folder/Graphics/" />
+        <folder expanded="0" path="object-folder/Text/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/girl1/" />
+        <folder expanded="1" path="animation-folder/girl2/" />
+        <folder expanded="1" path="animation-folder/girl3/" />
+        <folder expanded="1" path="animation-folder/tree1/" />
+        <folder expanded="1" path="animation-folder/tree2/" />
+        <folder expanded="1" path="animation-folder/tree3/" />
+        <folder expanded="1" path="animation-folder/bean1/" />
+        <folder expanded="1" path="animation-folder/trigger1/" />
+        <folder expanded="1" path="animation-folder/trigger2/" />
+        <folder expanded="1" path="animation-folder/trigger3/" />
+        <folder expanded="1" path="animation-folder/baloon/" />
+        <folder expanded="1" path="animation-folder/baloon2/" />
+        <folder expanded="1" path="animation-folder/floor1/" />
+        <folder expanded="1" path="animation-folder/floor2/" />
+        <folder expanded="1" path="animation-folder/floor3/" />
+        <folder expanded="1" path="animation-folder/leaf1/" />
+        <folder expanded="1" path="animation-folder/leaf2/" />
+        <folder expanded="1" path="animation-folder/leaf3/" />
+        <folder expanded="1" path="animation-folder/bean2/" />
+        <folder expanded="1" path="animation-folder/bean3/" />
     </folders-expanded>
 </c2uistate>

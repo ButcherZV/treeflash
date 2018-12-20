@@ -4,17 +4,17 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>420.645</position-x>
-        <position-y>499.759</position-y>
-        <position-z>91.6665</position-z>
-        <lookat-x>420.645</lookat-x>
-        <lookat-y>499.759</lookat-y>
+        <position-x>319.916</position-x>
+        <position-y>342.664</position-y>
+        <position-z>69.3433</position-z>
+        <lookat-x>319.916</lookat-x>
+        <lookat-y>342.664</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>1</snap-to-grid>
     <show-grid>0</show-grid>
-    <snap-width>10</snap-width>
-    <snap-height>10</snap-height>
+    <snap-width>5</snap-width>
+    <snap-height>5</snap-height>
     <show-collision-polys>0</show-collision-polys>
     <translucent-inactive-layers>0</translucent-inactive-layers>
     <properties>
@@ -23,9 +23,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Stage" />
+    <active-layer name="Words" />
     <layers>
         <layer locked="1" name="BG" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Stage" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Words" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

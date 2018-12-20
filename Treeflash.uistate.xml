@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout 1</layout>
-        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
+        <layout active="1" order="0">Layout 1</layout>
+        <event-sheet order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,9 +32,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Girls/" />
-        <folder expanded="1" path="object-folder/Tree/" />
+        <folder expanded="0" path="object-folder/Tree/" />
         <folder expanded="0" path="object-folder/Graphics/" />
         <folder expanded="0" path="object-folder/Text/" />
+        <folder expanded="0" path="object-folder/Plugins/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -47,6 +48,26 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/tree1/" />
         <folder expanded="1" path="animation-folder/tree2/" />
         <folder expanded="1" path="animation-folder/tree3/" />
+        <folder expanded="1" path="animation-folder/tree4/" />
+        <folder expanded="1" path="animation-folder/tree5/" />
+        <folder expanded="1" path="animation-folder/tree6/" />
+        <folder expanded="1" path="animation-folder/tree10/" />
+        <folder expanded="1" path="animation-folder/tree11/" />
+        <folder expanded="1" path="animation-folder/tree12/" />
+        <folder expanded="1" path="animation-folder/tree7/" />
+        <folder expanded="1" path="animation-folder/tree8/" />
+        <folder expanded="1" path="animation-folder/tree9/" />
+        <folder expanded="1" path="animation-folder/tree13/" />
+        <folder expanded="1" path="animation-folder/tree14/" />
+        <folder expanded="1" path="animation-folder/tree15/" />
+        <folder expanded="1" path="animation-folder/tree16/" />
+        <folder expanded="1" path="animation-folder/tree17/" />
+        <folder expanded="1" path="animation-folder/tree18/" />
+        <folder expanded="1" path="animation-folder/tree19/" />
+        <folder expanded="1" path="animation-folder/tree20/" />
+        <folder expanded="1" path="animation-folder/tree21/" />
+        <folder expanded="1" path="animation-folder/tree22/" />
+        <folder expanded="1" path="animation-folder/tree23/" />
         <folder expanded="1" path="animation-folder/bean1/" />
         <folder expanded="1" path="animation-folder/trigger1/" />
         <folder expanded="1" path="animation-folder/trigger2/" />
@@ -61,5 +82,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/leaf3/" />
         <folder expanded="1" path="animation-folder/bean2/" />
         <folder expanded="1" path="animation-folder/bean3/" />
+        <folder expanded="1" path="animation-folder/wood/" />
     </folders-expanded>
 </c2uistate>

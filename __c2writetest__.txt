@@ -1,1 +1,0 @@
-﻿C2 checking write access

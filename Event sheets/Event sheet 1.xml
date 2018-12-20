@@ -24,9 +24,6 @@
                             <param id="0" name="Pin to">girl1</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="9" name="Set scale" sid="915954635475397" type="Tree">
-                            <param id="0" name="Scale">0</param>
-                        </action>
                         <action behavior="LiteTween" id="3" name="Set target" sid="542421167024266" type="Tree">
                             <param id="0" name="Target is">6</param>
                             <param id="1" name="Relativity">0</param>
@@ -60,6 +57,11 @@
                         <event-block sid="739824067074933">
                             <conditions>
                                 <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="114743537812258" type="GIRLS" />
+                                <condition id="-14" name="Compare variable" sid="443349657806888" type="System">
+                                    <param id="0" name="Variable">finishedMoving</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="955580426067088" type="Click">
@@ -161,6 +163,11 @@
                         <event-block sid="337739885651143">
                             <conditions>
                                 <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="721688697509689" type="GIRLS" />
+                                <condition id="-14" name="Compare variable" sid="220295022476061" type="System">
+                                    <param id="0" name="Variable">finishedMoving</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="645039454998164" type="Click">
@@ -262,6 +269,11 @@
                         <event-block sid="839800072270469">
                             <conditions>
                                 <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="736181266503164" type="GIRLS" />
+                                <condition id="-14" name="Compare variable" sid="722864597569308" type="System">
+                                    <param id="0" name="Variable">finishedMoving</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="697452652557900" type="Click">
@@ -383,6 +395,122 @@
         </event-group>
         <event-group description="" sid="567041452028412" title="Mouse cursor">
             <sub-events>
+                <comment>Set baloons invisible</comment>
+                <event-block sid="216107684620002">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="226291068298068" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="474094700188633" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="133367380221948" type="gclick1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="845691951475870" type="girl1">
+                            <param id="0" name="Instance variable">clicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="194063313731835">
+                            <conditions>
+                                <condition id="-34" name="Pick by evaluate" sid="729097657110343" type="System">
+                                    <param id="0" name="Object">baloon2</param>
+                                    <param id="1" name="Expression">baloon2.id = 1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="115629695481600" type="baloon2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="904358892253240">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="393331396731128" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="288096649988535" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="959462690155957" type="gclick2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="341344375154743" type="girl2">
+                            <param id="0" name="Instance variable">clicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="918980212045255">
+                            <conditions>
+                                <condition id="-34" name="Pick by evaluate" sid="711022725713672" type="System">
+                                    <param id="0" name="Object">baloon2</param>
+                                    <param id="1" name="Expression">baloon2.id = 2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="510311278962489" type="baloon2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="702405932557355">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="614038708956722" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">girl3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="812302220748953" type="System">
+                            <param id="0" name="Variable">finishedMoving</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="569264232809133" type="gclick3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="552508612464246" type="girl3">
+                            <param id="0" name="Instance variable">clicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="575813353617785">
+                            <conditions>
+                                <condition id="-34" name="Pick by evaluate" sid="781740754817851" type="System">
+                                    <param id="0" name="Object">baloon2</param>
+                                    <param id="1" name="Expression">baloon2.id = 3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="194266838516550" type="baloon2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Set hand coursor</comment>
                 <event-block any="1" sid="721395650419366">
                     <conditions>
                         <condition id="7" name="Cursor is over object" sid="446319519661181" type="Mouse">
@@ -414,11 +542,12 @@
                         </action>
                     </actions>
                 </event-block>
+                <comment>Reset</comment>
                 <event-block sid="752788430525181">
                     <conditions>
                         <condition id="6" name="On object clicked" sid="732327958354815" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">1</param>
+                            <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">reset</param>
                         </condition>
                     </conditions>
@@ -427,6 +556,7 @@
                         <action id="-21" name="Reset global variables" sid="478277408851542" type="System" />
                     </actions>
                 </event-block>
+                <comment>Set hand coursor</comment>
                 <event-block any="1" sid="547168515814895">
                     <conditions>
                         <condition id="7" name="Cursor is over object" sid="741161178249327" type="Mouse">
@@ -473,6 +603,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <comment>Set floors visible and when clicked, stop animation of girls</comment>
                 <event-block sid="194387728509578">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="269249818952763" type="System">
@@ -492,18 +623,42 @@
                                     <param id="0" name="Object">gclick1</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="709481246233388" type="floor1">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="626686055603027">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="423050124838681" type="girl1">
+                                            <param id="0" name="Instance variable">clicked</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="709481246233388" type="floor1">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="437833504556424">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="371963909058695" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="405873738994441" type="floor1">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="960643528070655" type="girl1">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action id="2" name="Stop" sid="442000862127541" type="girl1" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                        <event-block sid="437833504556424">
+                        <event-block sid="670115643377859">
                             <conditions>
-                                <condition id="-22" name="Else" sid="371963909058695" type="System" />
+                                <condition id="-22" name="Else" sid="497467574413909" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="405873738994441" type="floor1">
+                                <action id="-15" name="Set visible" sid="146521989493838" type="floor1">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -517,18 +672,42 @@
                                     <param id="0" name="Object">gclick2</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="818215839372993" type="floor2">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="183541196201235">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="614648455758672" type="girl2">
+                                            <param id="0" name="Instance variable">clicked</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="818215839372993" type="floor2">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="942934454912918">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="603941181549593" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="103231505804992" type="floor2">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="293666791212391" type="girl2">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action id="2" name="Stop" sid="927911997898570" type="girl2" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                        <event-block sid="942934454912918">
+                        <event-block sid="635673326303713">
                             <conditions>
-                                <condition id="-22" name="Else" sid="603941181549593" type="System" />
+                                <condition id="-22" name="Else" sid="926065023261132" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="103231505804992" type="floor2">
+                                <action id="-15" name="Set visible" sid="619755478458362" type="floor2">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -542,18 +721,42 @@
                                     <param id="0" name="Object">gclick3</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="601678725324777" type="floor3">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="766476290140656">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="959685674735189" type="girl3">
+                                            <param id="0" name="Instance variable">clicked</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="601678725324777" type="floor3">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="164188111684796">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="380915273747645" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="347597267906607" type="floor3">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="711544191345942" type="girl3">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action id="2" name="Stop" sid="703603364627411" type="girl3" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                        <event-block sid="164188111684796">
+                        <event-block sid="428025680888905">
                             <conditions>
-                                <condition id="-22" name="Else" sid="380915273747645" type="System" />
+                                <condition id="-22" name="Else" sid="773197763526403" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="347597267906607" type="floor3">
+                                <action id="-15" name="Set visible" sid="965598030675701" type="floor3">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -564,6 +767,7 @@
         </event-group>
         <event-group description="" sid="586376817231751" title="Tree Growing">
             <sub-events>
+                <variable constant="0" name="wTime" sid="475439890386623" static="0" type="number">0.4</variable>
                 <event-block any="1" sid="580931787544879">
                     <conditions>
                         <condition id="6" name="On object clicked" sid="520453240353877" type="Mouse">
@@ -591,6 +795,7 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
+                                <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="470347192215097" type="Tree" />
                             </conditions>
                             <actions />
                             <sub-events>
@@ -609,17 +814,36 @@
                                                 <condition id="-7" name="Compare instance variable" sid="752214351368556" type="trigger1">
                                                     <param id="0" name="Instance variable">growStage</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">0</param>
+                                                    <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
+                                                <action id="-3" name="Set position" sid="772544069669703" type="tree1">
+                                                    <param id="0" name="X">160</param>
+                                                    <param id="1" name="Y">400</param>
+                                                </action>
+                                                <action id="-3" name="Set position" sid="223640102894597" type="tree2">
+                                                    <param id="0" name="X">390</param>
+                                                    <param id="1" name="Y">410</param>
+                                                </action>
+                                                <action id="-3" name="Set position" sid="954505637878475" type="tree3">
+                                                    <param id="0" name="X">250</param>
+                                                    <param id="1" name="Y">340</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="281417339789704" type="System">
+                                                    <param id="0" name="Variable">wTime</param>
+                                                    <param id="1" name="Value">0.25</param>
+                                                </action>
                                                 <action behavior="LiteTween" id="1" name="Set duration" sid="575131649383840" type="Tree">
                                                     <param id="0" name="Duration">1</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="4" name="Set tweened property" sid="396871526002957" type="Tree">
+                                                    <param id="0" name="Tweened property">9</param>
                                                 </action>
                                                 <action behavior="LiteTween" id="3" name="Set target" sid="119894938774557" type="Tree">
                                                     <param id="0" name="Target is">6</param>
                                                     <param id="1" name="Relativity">0</param>
-                                                    <param id="2" name="Value">0.5</param>
+                                                    <param id="2" name="Value">0.65</param>
                                                 </action>
                                                 <action id="-15" name="Set visible" sid="469972228138412" type="leaf1">
                                                     <param id="0" name="Visibility">1</param>
@@ -631,23 +855,208 @@
                                                     <param id="1" name="Force use current">0</param>
                                                 </action>
                                                 <action id="-16" name="Wait" sid="999255007784581" type="System">
-                                                    <param id="0" name="Seconds">0.2</param>
+                                                    <param id="0" name="Seconds">wTime</param>
                                                 </action>
                                                 <action behavior="LiteTween" id="10" name="Start" sid="657707607031867" type="tree2">
                                                     <param id="0" name="Start Mode">0</param>
                                                     <param id="1" name="Force use current">0</param>
                                                 </action>
-                                                <action id="-16" name="Wait" sid="403173200221941" type="System">
-                                                    <param id="0" name="Seconds">0.2</param>
+                                                <action id="-16" name="Wait" sid="182749824129389" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
                                                 </action>
                                                 <action behavior="LiteTween" id="10" name="Start" sid="820723942977083" type="tree3">
                                                     <param id="0" name="Start Mode">0</param>
                                                     <param id="1" name="Force use current">0</param>
                                                 </action>
-                                                <action id="-16" name="Wait" sid="149231331874995" type="System">
-                                                    <param id="0" name="Seconds">0.2</param>
+                                                <action id="-16" name="Wait" sid="710255025556438" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="796352477267052" type="trigger1">
+                                                <action id="-11" name="Add to" sid="796352477267052" type="trigger1">
+                                                    <param id="0" name="Instance variable">growStage</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="456173803465535">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="491755833894863" type="trigger1">
+                                                    <param id="0" name="Instance variable">growStage</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="220840730347828" type="System">
+                                                    <param id="0" name="Variable">wTime</param>
+                                                    <param id="1" name="Value">0.05</param>
+                                                </action>
+                                                <action behavior="Fade" id="4" name="Set fade-out time" sid="658643097210716" type="leaf1">
+                                                    <param id="0" name="Fade-out time">1</param>
+                                                </action>
+                                                <action behavior="Fade" id="1" name="Start fade" sid="127480697248045" type="leaf1" />
+                                                <action id="0" name="Call function" sid="420184020402834" type="Function">
+                                                    <param id="0" name="Name">&quot;grow1&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                                <action behavior="LiteTween" id="1" name="Set duration" sid="701526131130429" type="Tree">
+                                                    <param id="0" name="Duration">2</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="4" name="Set tweened property" sid="307597986083690" type="Tree">
+                                                    <param id="0" name="Tweened property">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="255318251085433" type="tree1">
+                                                    <param id="0" name="Target is">0</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">145</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="997315249714206" type="tree1">
+                                                    <param id="0" name="Target is">1</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">330</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="585674762077295" type="tree1">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="376034818544848" type="tree2">
+                                                    <param id="0" name="Target is">0</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">422</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="575038437087381" type="tree2">
+                                                    <param id="0" name="Target is">1</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">333</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="274168247651285" type="tree2">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="440507045585133" type="tree3">
+                                                    <param id="0" name="Target is">0</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">213</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="128718380199724" type="tree3">
+                                                    <param id="0" name="Target is">1</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">212</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="795428883658351" type="tree3">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="472400797769217" type="System">
+                                                    <param id="0" name="Seconds">2</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="613948464973638" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="1" name="Set duration" sid="865187967876700" type="Tree">
+                                                    <param id="0" name="Duration">1</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="4" name="Set tweened property" sid="628905901133198" type="Tree">
+                                                    <param id="0" name="Tweened property">9</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="3" name="Set target" sid="966423799203708" type="Tree">
+                                                    <param id="0" name="Target is">6</param>
+                                                    <param id="1" name="Relativity">0</param>
+                                                    <param id="2" name="Value">0.65</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="804687158908687" type="System">
+                                                    <param id="0" name="Variable">wTime</param>
+                                                    <param id="1" name="Value">0.2</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="113735871234972" type="tree4">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="776171720010995" type="tree8">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="759884009256511" type="tree12">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="594820269178332" type="tree16">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="346468696581947" type="tree20">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="618506861839038" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="808950626886369" type="tree5">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="402871602361800" type="tree9">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="324091268339809" type="tree13">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="159596430097262" type="tree17">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="420382076670625" type="tree21">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="974612599594313" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="820395136549058" type="tree6">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="324048438737354" type="tree10">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="403847009785417" type="tree14">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="760047912168485" type="tree18">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="651749964482829" type="tree22">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="866272927688781" type="System">
+                                                    <param id="0" name="Seconds">wTime</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="576346888616059" type="tree7">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="921889709224605" type="tree11">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="619838149444053" type="tree15">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="876798398928286" type="tree19">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action behavior="LiteTween" id="10" name="Start" sid="556259935131409" type="tree23">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="-11" name="Add to" sid="602078607809586" type="trigger1">
                                                     <param id="0" name="Instance variable">growStage</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
@@ -656,6 +1065,140 @@
                                     </sub-events>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="367944378978252">
+                    <conditions>
+                        <condition id="0" name="On function" sid="948398291481709" type="Function">
+                            <param id="0" name="Name">&quot;grow1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <variable constant="0" name="timeout" sid="863541845517241" static="0" type="number">0.25</variable>
+                        <event-block sid="722670852426625">
+                            <conditions />
+                            <actions>
+                                <action id="-3" name="Create object" sid="683625169530507" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">250</param>
+                                    <param id="3" name="Y">430</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="564189308761203" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="772622100124184" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">250</param>
+                                    <param id="3" name="Y">394</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="688318840678956" type="wood">
+                                    <param id="0" name="Width">35</param>
+                                    <param id="1" name="Height">49</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="966026530765582" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="964468542241382" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">228</param>
+                                    <param id="3" name="Y">398</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="203885799997882" type="wood">
+                                    <param id="0" name="Width">20</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="600931245906876" type="wood">
+                                    <param id="0" name="Angle">317</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="900056208716061" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="207296634373643" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">206</param>
+                                    <param id="3" name="Y">376</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="634111873710466" type="wood">
+                                    <param id="0" name="Width">15</param>
+                                    <param id="1" name="Height">35</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="482689777366956" type="wood">
+                                    <param id="0" name="Angle">317</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="593437183283053" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="241319926652118" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">250</param>
+                                    <param id="3" name="Y">340</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="500549342764750" type="wood">
+                                    <param id="0" name="Width">29</param>
+                                    <param id="1" name="Height">70</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="843925808440589" type="wood">
+                                    <param id="0" name="Angle">4.3</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="290281567816590" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="870246015894907" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">268</param>
+                                    <param id="3" name="Y">364</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="688594927056729" type="wood">
+                                    <param id="0" name="Width">25</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="406872727262377" type="wood">
+                                    <param id="0" name="Angle">47.5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="449953389666991" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="516075202658722" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">288</param>
+                                    <param id="3" name="Y">346</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="370369394294439" type="wood">
+                                    <param id="0" name="Width">20</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="388071115048772" type="wood">
+                                    <param id="0" name="Angle">57</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="763489614059436" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="384556074905733" type="System">
+                                    <param id="0" name="Object to create">wood</param>
+                                    <param id="1" name="Layer">&quot;Stage&quot;</param>
+                                    <param id="2" name="X">310</param>
+                                    <param id="3" name="Y">329</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="139972515850585" type="wood">
+                                    <param id="0" name="Width">15</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="150724695392001" type="wood">
+                                    <param id="0" name="Angle">57</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="169377795796431" type="System">
+                                    <param id="0" name="Seconds">timeout</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>

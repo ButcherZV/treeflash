@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="0">Layout 1</layout>
+        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -28,6 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="LEAFS" />
         <family expanded="0" name="BEANS" />
         <family expanded="0" name="Tree" />
+        <family expanded="0" name="TreeMove" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -68,6 +69,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/tree21/" />
         <folder expanded="1" path="animation-folder/tree22/" />
         <folder expanded="1" path="animation-folder/tree23/" />
+        <folder expanded="1" path="animation-folder/tree24/" />
+        <folder expanded="1" path="animation-folder/tree25/" />
+        <folder expanded="1" path="animation-folder/tree26/" />
+        <folder expanded="1" path="animation-folder/tree27/" />
+        <folder expanded="1" path="animation-folder/tree28/" />
+        <folder expanded="1" path="animation-folder/tree29/" />
         <folder expanded="1" path="animation-folder/bean1/" />
         <folder expanded="1" path="animation-folder/trigger1/" />
         <folder expanded="1" path="animation-folder/trigger2/" />
@@ -83,5 +90,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bean2/" />
         <folder expanded="1" path="animation-folder/bean3/" />
         <folder expanded="1" path="animation-folder/wood/" />
+        <folder expanded="1" path="animation-folder/move/" />
     </folders-expanded>
 </c2uistate>

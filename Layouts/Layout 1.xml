@@ -81,8 +81,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>943</x>
-                        <y>869</y>
+                        <x>1055</x>
+                        <y>875</y>
                         <z>0</z>
                         <width>102</width>
                         <height>34</height>
@@ -106,8 +106,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>790</x>
-                        <y>905</y>
+                        <x>900</x>
+                        <y>910</y>
                         <z>0</z>
                         <width>102</width>
                         <height>34</height>
@@ -131,8 +131,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>631</x>
-                        <y>869</y>
+                        <x>741</x>
+                        <y>879</y>
                         <z>0</z>
                         <width>102</width>
                         <height>34</height>
@@ -169,8 +169,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>787.151123047</x>
-                        <y>823.891479492</y>
+                        <x>900</x>
+                        <y>830</y>
                         <z>0</z>
                         <width>78.53855896</width>
                         <height>173.163330078</height>
@@ -207,8 +207,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>942.887084961</x>
-                        <y>803.282897949</y>
+                        <x>1055</x>
+                        <y>810</y>
                         <z>0</z>
                         <width>68.831298828</width>
                         <height>142.377075195</height>
@@ -245,8 +245,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>630.034179688</x>
-                        <y>801.338500977</y>
+                        <x>740</x>
+                        <y>810</y>
                         <z>0</z>
                         <width>84.068336487</width>
                         <height>152.257095337</height>
@@ -267,6 +267,9 @@
                     <instance-variables>
                         <growStage>0</growStage>
                         <completed>false</completed>
+                        <centerX>410</centerX>
+                        <centerY>660</centerY>
+                        <scaleFactor>0.5</scaleFactor>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -293,11 +296,14 @@
                     <instance-variables>
                         <growStage>0</growStage>
                         <completed>false</completed>
+                        <centerX>910</centerX>
+                        <centerY>660</centerY>
+                        <scaleFactor>0.5</scaleFactor>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>790</x>
+                        <x>905</x>
                         <y>690</y>
                         <z>0</z>
                         <width>91.350028992</width>
@@ -319,11 +325,14 @@
                     <instance-variables>
                         <growStage>0</growStage>
                         <completed>false</completed>
+                        <centerX>1410</centerX>
+                        <centerY>500</centerY>
+                        <scaleFactor>0.3</scaleFactor>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1160</x>
+                        <x>1400</x>
                         <y>690</y>
                         <z>0</z>
                         <width>92</width>
@@ -378,7 +387,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>910</x>
+                        <x>1025</x>
                         <y>650</y>
                         <z>0</z>
                         <width>100</width>
@@ -422,7 +431,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1280</x>
+                        <x>1520</x>
                         <y>650</y>
                         <z>0</z>
                         <width>100</width>
@@ -476,7 +485,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>876</x>
+                        <x>995</x>
                         <y>620</y>
                         <z>0</z>
                         <width>70</width>
@@ -503,7 +512,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1246</x>
+                        <x>1490</x>
                         <y>620</y>
                         <z>0</z>
                         <width>70</width>
@@ -541,10 +550,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1685</x>
+                        <x>1745</x>
                         <y>1000</y>
                         <z>0</z>
-                        <width>200</width>
+                        <width>140</width>
                         <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -569,8 +578,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>704</x>
-                        <y>739</y>
+                        <x>815</x>
+                        <y>745</y>
                         <z>0</z>
                         <width>94</width>
                         <height>56</height>
@@ -597,8 +606,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1030</x>
-                        <y>739</y>
+                        <x>1140</x>
+                        <y>745</y>
                         <z>0</z>
                         <width>94</width>
                         <height>56</height>
@@ -625,8 +634,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>870</x>
-                        <y>759</y>
+                        <x>980</x>
+                        <y>765</y>
                         <z>0</z>
                         <width>94</width>
                         <height>56</height>
@@ -655,8 +664,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>997</x>
-                        <y>716</y>
+                        <x>1108</x>
+                        <y>725</y>
                         <z>0</z>
                         <width>70</width>
                         <height>40</height>
@@ -685,8 +694,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>837</x>
-                        <y>736</y>
+                        <x>948</x>
+                        <y>745</y>
                         <z>0</z>
                         <width>70</width>
                         <height>40</height>
@@ -715,8 +724,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>671</x>
-                        <y>716</y>
+                        <x>781</x>
+                        <y>725</y>
                         <z>0</z>
                         <width>70</width>
                         <height>40</height>
@@ -781,7 +790,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>794</x>
+                        <x>910</x>
                         <y>650</y>
                         <z>0</z>
                         <width>76</width>
@@ -814,7 +823,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1164</x>
+                        <x>1405</x>
                         <y>650</y>
                         <z>0</z>
                         <width>76</width>
@@ -847,8 +856,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>790</x>
-                        <y>659</y>
+                        <x>905</x>
+                        <y>660</y>
                         <z>0</z>
                         <width>19</width>
                         <height>20</height>
@@ -880,8 +889,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1160</x>
-                        <y>659</y>
+                        <x>1400</x>
+                        <y>660</y>
                         <z>0</z>
                         <width>19</width>
                         <height>20</height>
@@ -895,7 +904,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Words" sid="575643583342425">
+        <layer name="Words1" sid="575643583342425">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -918,6 +927,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -953,6 +965,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -989,6 +1004,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1025,6 +1043,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1061,6 +1082,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1097,6 +1121,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1133,6 +1160,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1169,6 +1199,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Pin" />
                     </behavior-instances>
@@ -1194,6 +1227,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1230,6 +1266,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1266,6 +1305,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1302,6 +1344,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1338,6 +1383,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1374,6 +1422,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1410,6 +1461,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1446,6 +1500,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1482,6 +1539,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1518,6 +1578,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1554,6 +1617,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1590,6 +1656,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1626,6 +1695,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1662,6 +1734,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1698,6 +1773,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1734,6 +1812,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1770,6 +1851,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1806,6 +1890,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1842,6 +1929,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1878,6 +1968,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1914,6 +2007,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1950,6 +2046,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <id>1</id>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
@@ -1979,7 +2078,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="move" uid="61">
+                <instance type="move1" uid="61">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2003,6 +2102,1190 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>440</x>
+                        <y>330</y>
+                        <z>0</z>
+                        <width>25</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Words2" sid="380722937268901">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="tree30" uid="63">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>785</x>
+                        <y>530</y>
+                        <z>0</z>
+                        <width>127.707000732</width>
+                        <height>30.538999557</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree31" uid="64">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1095</x>
+                        <y>530</y>
+                        <z>0</z>
+                        <width>191</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501694918</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree32" uid="65">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>885</x>
+                        <y>365</y>
+                        <z>0</z>
+                        <width>217</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree33" uid="66">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>775</x>
+                        <y>570</y>
+                        <z>0</z>
+                        <width>98</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503816783</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree34" uid="67">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>660</x>
+                        <y>530</y>
+                        <z>0</z>
+                        <width>74.912002563</width>
+                        <height>24.027999878</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50505048</hotspotX>
+                        <hotspotY>0.516129017</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree35" uid="68">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>795</x>
+                        <y>490</y>
+                        <z>0</z>
+                        <width>110.586997986</width>
+                        <height>24.415000916</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.516129017</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree36" uid="69">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>949</x>
+                        <y>508</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree37" uid="70">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>895</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>78</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50666666</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree38" uid="71">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>990</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>99</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50505048</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree39" uid="72">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1070</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>49</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.510204077</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree40" uid="73">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>930</x>
+                        <y>450</y>
+                        <z>0</z>
+                        <width>154</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree41" uid="74">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1115</x>
+                        <y>450</y>
+                        <z>0</z>
+                        <width>289</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501960814</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree42" uid="75">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1190</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>204</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree43" uid="76">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1000</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>152</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree44" uid="77">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1130</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>126</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree45" uid="78">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1075</x>
+                        <y>390</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree46" uid="79">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>885</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>47</width>
+                        <height>23</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5090909</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree47" uid="80">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>705</x>
+                        <y>490</y>
+                        <z>0</z>
+                        <width>55</width>
+                        <height>27</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5090909</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree48" uid="81">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>645</x>
+                        <y>490</y>
+                        <z>0</z>
+                        <width>55</width>
+                        <height>27</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5090909</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree49" uid="82">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>820</x>
+                        <y>455</y>
+                        <z>0</z>
+                        <width>46.730998993</width>
+                        <height>24.073999405</height>
+                        <depth>0</depth>
+                        <hotspotX>0.509803951</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree50" uid="83">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>720</x>
+                        <y>455</y>
+                        <z>0</z>
+                        <width>117.947998047</width>
+                        <height>23.315000534</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree51" uid="84">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>825</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>46.730998993</width>
+                        <height>24.073999405</height>
+                        <depth>0</depth>
+                        <hotspotX>0.509803951</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree52" uid="85">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>765</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5090909</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree53" uid="86">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1100</x>
+                        <y>605</y>
+                        <z>0</z>
+                        <width>202.48500061</width>
+                        <height>48.152000427</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501858711</hotspotX>
+                        <hotspotY>0.507692337</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree54" uid="87">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>785</x>
+                        <y>625</y>
+                        <z>0</z>
+                        <width>125.884300232</width>
+                        <height>54.222221375</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.524590135</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree55" uid="88">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>660</x>
+                        <y>580</y>
+                        <z>0</z>
+                        <width>100.487602234</width>
+                        <height>45.639343262</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree56" uid="89">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>650</x>
+                        <y>420</y>
+                        <z>0</z>
+                        <width>150.733001709</width>
+                        <height>24.878000259</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree57" uid="90">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>830</x>
+                        <y>310</y>
+                        <z>0</z>
+                        <width>204</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tree58" uid="91">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <id>2</id>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1100</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>175</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="move2" uid="92">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Vertical</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>-100</target>
+                                <target-mode>Relative</target-mode>
+                                <duration>2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>940</x>
                         <y>330</y>
                         <z>0</z>
                         <width>25</width>

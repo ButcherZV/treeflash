@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="0">Layout 1</layout>
+        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,14 +30,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Tree" />
         <family expanded="0" name="TreeMove1" />
         <family expanded="0" name="TreeMove2" />
+        <family expanded="0" name="TreeMove3" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/Girls/" />
         <folder expanded="0" path="object-folder/Tree/" />
         <folder expanded="0" path="object-folder/Graphics/" />
         <folder expanded="0" path="object-folder/Text/" />
-        <folder expanded="0" path="object-folder/Plugins/" />
+        <folder expanded="1" path="object-folder/Plugins/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -105,6 +106,47 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/tree56/" />
         <folder expanded="1" path="animation-folder/tree57/" />
         <folder expanded="1" path="animation-folder/tree58/" />
+        <folder expanded="1" path="animation-folder/tree59/" />
+        <folder expanded="1" path="animation-folder/tree60/" />
+        <folder expanded="1" path="animation-folder/tree61/" />
+        <folder expanded="1" path="animation-folder/tree62/" />
+        <folder expanded="1" path="animation-folder/tree63/" />
+        <folder expanded="1" path="animation-folder/tree64/" />
+        <folder expanded="1" path="animation-folder/tree65/" />
+        <folder expanded="1" path="animation-folder/tree66/" />
+        <folder expanded="1" path="animation-folder/tree67/" />
+        <folder expanded="1" path="animation-folder/tree68/" />
+        <folder expanded="1" path="animation-folder/tree69/" />
+        <folder expanded="1" path="animation-folder/tree70/" />
+        <folder expanded="1" path="animation-folder/tree71/" />
+        <folder expanded="1" path="animation-folder/tree72/" />
+        <folder expanded="1" path="animation-folder/tree73/" />
+        <folder expanded="1" path="animation-folder/tree74/" />
+        <folder expanded="1" path="animation-folder/tree75/" />
+        <folder expanded="1" path="animation-folder/tree76/" />
+        <folder expanded="1" path="animation-folder/tree77/" />
+        <folder expanded="1" path="animation-folder/tree78/" />
+        <folder expanded="1" path="animation-folder/tree79/" />
+        <folder expanded="1" path="animation-folder/tree80/" />
+        <folder expanded="1" path="animation-folder/tree81/" />
+        <folder expanded="1" path="animation-folder/tree82/" />
+        <folder expanded="1" path="animation-folder/tree83/" />
+        <folder expanded="1" path="animation-folder/tree84/" />
+        <folder expanded="1" path="animation-folder/tree85/" />
+        <folder expanded="1" path="animation-folder/tree86/" />
+        <folder expanded="1" path="animation-folder/tree87/" />
+        <folder expanded="1" path="animation-folder/tree88/" />
+        <folder expanded="1" path="animation-folder/tree89/" />
+        <folder expanded="1" path="animation-folder/tree90/" />
+        <folder expanded="1" path="animation-folder/tree91/" />
+        <folder expanded="1" path="animation-folder/tree92/" />
+        <folder expanded="1" path="animation-folder/tree93/" />
+        <folder expanded="1" path="animation-folder/tree94/" />
+        <folder expanded="1" path="animation-folder/tree95/" />
+        <folder expanded="1" path="animation-folder/tree96/" />
+        <folder expanded="1" path="animation-folder/tree97/" />
+        <folder expanded="1" path="animation-folder/tree98/" />
+        <folder expanded="1" path="animation-folder/tree99/" />
         <folder expanded="1" path="animation-folder/bean1/" />
         <folder expanded="1" path="animation-folder/trigger1/" />
         <folder expanded="1" path="animation-folder/trigger2/" />
@@ -122,5 +164,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/wood/" />
         <folder expanded="1" path="animation-folder/move1/" />
         <folder expanded="1" path="animation-folder/move2/" />
+        <folder expanded="1" path="animation-folder/move3/" />
     </folders-expanded>
 </c2uistate>

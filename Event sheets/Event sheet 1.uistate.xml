@@ -4,7 +4,7 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <show-addaction-links>1</show-addaction-links>
-    <scroll-pos>216</scroll-pos>
+    <scroll-pos>629</scroll-pos>
     <conditions-column>462</conditions-column>
     <actions-namecolumn>121</actions-namecolumn>
     <condition-namecolumns>
@@ -26,13 +26,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <nest>22</nest>
         <nest>22</nest>
         <nest>20</nest>
-        <nest>20</nest>
-        <nest>20</nest>
-        <nest>16</nest>
     </condition-namecolumns>
     <events>
         <event collapsed="1" sid="669677160140931" />
-        <event collapsed="1" sid="433934743396451" />
         <event collapsed="1" sid="937407428840580" />
         <event collapsed="1" sid="739824067074933" />
         <event collapsed="1" sid="578737259556104" />
@@ -44,10 +40,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event collapsed="1" sid="904358892253240" />
         <event collapsed="1" sid="702405932557355" />
         <event collapsed="1" sid="547168515814895" />
-        <event collapsed="1" sid="549572794496511" />
+        <event collapsed="1" sid="586376817231751" />
+        <event collapsed="1" sid="580931787544879" />
+        <event collapsed="1" sid="326709042889304" />
         <event collapsed="1" sid="665450383818920" />
+        <event collapsed="1" sid="721374707445173" />
         <event collapsed="1" sid="367944378978252" />
         <event collapsed="1" sid="515822622444527" />
-        <event collapsed="1" sid="609185657190028" />
+        <event collapsed="1" sid="497548666150629" />
+        <event collapsed="1" sid="117001564236093" />
+        <event collapsed="1" sid="408586926550763" />
+        <event collapsed="1" sid="382470136087589" />
+        <event collapsed="1" sid="752137092463730" />
     </events>
 </c2uistate>

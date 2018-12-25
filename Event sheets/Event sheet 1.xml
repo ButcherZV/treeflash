@@ -816,6 +816,9 @@
                         <condition id="7" name="Cursor is over object" sid="999258292071831" type="Mouse">
                             <param id="0" name="Object">reset</param>
                         </condition>
+                        <condition id="7" name="Cursor is over object" sid="539032109791031" type="Mouse">
+                            <param id="0" name="Object">exit</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="0" name="Set cursor style" sid="333773499814060" type="Mouse">
@@ -1079,6 +1082,18 @@
                             <param id="1" name="Parameter index">3</param>
                             <param id="2" name="Value">1</param>
                         </action>
+                    </actions>
+                </event-block>
+                <event-block sid="967778813096302">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="519380350439688" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">exit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="969248171757204" type="Browser" />
                     </actions>
                 </event-block>
             </sub-events>
